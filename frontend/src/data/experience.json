@@ -30,17 +30,17 @@
     "end_date": "2022-08-31",
     "is_current": false,
     "description": "Mobile application development using Flutter framework.",
-    "display_order": 3
+    "display_order": 4
   },
   {
     "id": 4,
     "company": "XMigrate",
     "position": "Golang Developer Intern",
     "location": "Remote",
-    "start_date": "2022-01-01",
-    "end_date": "2022-03-31",
+    "start_date": "2023-05-01",
+    "end_date": "2023-06-31",
     "is_current": false,
     "description": "Backend development with Golang, worked on eBPF (Extended Berkeley Packet Filter) projects.",
-    "display_order": 4
+    "display_order": 3
   }
 ]

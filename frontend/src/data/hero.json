@@ -1,0 +1,58 @@
+{
+  "lines": [
+    {
+      "id": 1,
+      "type": "command",
+      "content": "whoami",
+      "delay": "0.2s",
+      "display_order": 1
+    },
+    {
+      "id": 2,
+      "type": "response",
+      "content": "Versatile Full-Stack Engineer",
+      "delay": "0.5s",
+      "display_order": 2
+    },
+    {
+      "id": 3,
+      "type": "command",
+      "content": "cat mission.txt",
+      "delay": "1s",
+      "display_order": 3
+    },
+    {
+      "id": 4,
+      "type": "response",
+      "content": "Building enterprise solutions at Big 4 | Engineered Producton ready ETL pipelines",
+      "delay": "1.5s",
+      "display_order": 4
+    },
+    {
+      "id": 5,
+      "type": "response",
+      "content": "processing 300K+ documents into AI-ready knowledge artifacts",
+      "delay": "2s",
+      "show_cursor": true,
+      "display_order": 5
+    }
+  ],
+  "cta_buttons": [
+    {
+      "text": "view_projects()",
+      "href": "#projects",
+      "primary": true
+    },
+    {
+      "text": "download_resume()",
+      "href": "/api/resume/download",
+      "primary": false
+    },
+    {
+      "text": "contact_me()",
+      "href": "#contact",
+      "primary": false
+    }
+  ],
+  "scroll_text": "Scroll to explore"
+}

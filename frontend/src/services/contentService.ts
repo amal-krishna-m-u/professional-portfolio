@@ -9,12 +9,13 @@
 
 import { get } from './api';
 import { API_ENDPOINTS, FEATURES } from '@/constants';
-import type { Project, Experience, Skill, SkillCategory } from '@/types';
+import type { Project, Experience, Skill, SkillCategory, HeroContent } from '@/types';
 
 // Import mock data
 import projectsData from '@/data/projects.json';
 import experienceData from '@/data/experience.json';
 import skillsData from '@/data/skills.json';
+import heroData from '@/data/hero.json';
 
 // ============================================
 // HELPER FUNCTIONS
@@ -154,6 +155,22 @@ export async function getSkills(): Promise<Skill[]> {
 export async function getSkillsByCategory(): Promise<SkillCategory[]> {
   const skills = await getSkills();
   return groupSkillsByCategory(skills);
+}
+
+/**
+ * Fetch hero section content
+ */
+export async function getHeroContent(): Promise<HeroContent> {
+  const content = await fetchWithFallback<HeroContent>(
+    API_ENDPOINTS.HERO,
+    heroData as HeroContent,
+    'portfolio_cached_hero'
+  );
+
+  // Sort lines by display order
+  content.lines = content.lines.sort((a, b) => a.display_order - b.display_order);
+
+  return content;
 }
 
 /**

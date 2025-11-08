@@ -118,6 +118,31 @@ export interface ApiError {
 }
 
 // ============================================
+// HERO TYPES
+// ============================================
+
+export interface HeroLine {
+  id: number;
+  type: 'command' | 'response';
+  content: string;
+  delay: string;
+  show_cursor?: boolean;
+  display_order: number;
+}
+
+export interface HeroButton {
+  text: string;
+  href: string;
+  primary: boolean;
+}
+
+export interface HeroContent {
+  lines: HeroLine[];
+  cta_buttons: HeroButton[];
+  scroll_text: string;
+}
+
+// ============================================
 // ABOUT ME TYPES
 // ============================================
 

@@ -18,6 +18,7 @@ export const API_CONFIG = {
 export const API_ENDPOINTS = {
   // Public endpoints
   HEALTH: '/api/health',
+  HERO: '/api/content/hero',
   PROJECTS: '/api/content/projects',
   EXPERIENCE: '/api/content/experience',
   SKILLS: '/api/content/skills',
@@ -25,7 +26,7 @@ export const API_ENDPOINTS = {
   CONTACT: '/api/contact',
   ANALYTICS: '/api/analytics/track',
   RESUME_DOWNLOAD: '/api/resume/download',
-  
+
   // Admin endpoints (will be used later)
   ADMIN_LOGIN: '/api/admin/login',
   ADMIN_REFRESH: '/api/admin/refresh',

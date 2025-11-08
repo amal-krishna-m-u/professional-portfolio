@@ -1,25 +1,23 @@
+import SocialLinks from '@/components/common/SocialLinks';
+import Footer from '@/components/layout/Footer';
 import { Hero } from '@/components/sections';
+import Contact from '@/components/sections/Contact';
+import Experience from '@/components/sections/Experience';
+import Projects from '@/components/sections/Projects';
+import Skills from '@/components/sections/Skills';
 
 export default function Home() {
   return (
     <div className="bg-bg-dark">
       {/* Hero Section */}
       <Hero />
-
-      {/* Placeholder for other sections */}
-      <section id="projects" className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h2 className="text-4xl font-bold text-accent-blue mb-4">Projects</h2>
-          <p className="text-text-secondary">Coming soon...</p>
-        </div>
-      </section>
-
-      <section id="contact" className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h2 className="text-4xl font-bold text-accent-blue mb-4">Contact</h2>
-          <p className="text-text-secondary">Coming soon...</p>
-        </div>
-      </section>
+      <Projects />
+      <Experience />
+      <Skills />
+      <Contact />
+      <SocialLinks />
+      <Footer />
     </div>
+    
   );
 }
