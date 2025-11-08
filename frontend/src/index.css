@@ -1,12 +1,9 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
-/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles */
 @layer base {
   * {
     @apply m-0 p-0 box-border;
@@ -23,18 +20,27 @@
   }
 }
 
-/* Custom utility classes */
 @layer utilities {
-  /* Glassmorphism effect - used throughout the design */
   .glass-bg {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
-  
-  /* Terminal-style text gradient */
-  .terminal-gradient {
-    background: linear-gradient(90deg, #00D9FF, transparent);
+}
+
+/* Ensure animations work properly */
+@keyframes terminalFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
 }

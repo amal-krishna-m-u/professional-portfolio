@@ -21,17 +21,23 @@ export default {
         xs: '2px',
       },
       animation: {
-        'fade-in': 'fadeIn 0.5s ease-in forwards',
-        'blink': 'blink 1.2s step-end infinite', // Changed from 1s to 1.2s (slower blink)
+        'terminal-fade-in': 'terminalFadeIn 0.5s ease forwards',
+        'bounce': 'bounce 2s infinite',
+        'blink': 'blink 1s step-end infinite',
       },
       keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
+        terminalFadeIn: {
+          'from': {
+            opacity: '0',
+          },
+          'to': {
+            opacity: '1',
+          },
         },
         blink: {
-          '0%, 49%': { opacity: '1' },
-          '50%, 100%': { opacity: '0' },
+          '50%': {
+            opacity: '0',
+          },
         },
       },
     },
