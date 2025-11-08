@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "name": "C# / .NET Core",
+    "category": "Languages",
+    "proficiency_level": "Advanced",
+    "display_order": 1
+  },
+  {
+    "id": 2,
+    "name": "Python",
+    "category": "Languages",
+    "proficiency_level": "Advanced",
+    "display_order": 2
+  },
+  {
+    "id": 3,
+    "name": "TypeScript / JavaScript",
+    "category": "Languages",
+    "proficiency_level": "Advanced",
+    "display_order": 3
+  },
+  {
+    "id": 4,
+    "name": "Go",
+    "category": "Languages",
+    "proficiency_level": "Intermediate",
+    "display_order": 4
+  },
+  {
+    "id": 5,
+    "name": "SQL",
+    "category": "Languages",
+    "proficiency_level": "Advanced",
+    "display_order": 5
+  },
+  {
+    "id": 6,
+    "name": "React + TypeScript",
+    "category": "Frontend",
+    "proficiency_level": "Advanced",
+    "display_order": 1
+  },
+  {
+    "id": 7,
+    "name": "HTML5 / CSS3",
+    "category": "Frontend",
+    "proficiency_level": "Advanced",
+    "display_order": 2
+  },
+  {
+    "id": 8,
+    "name": "Tailwind CSS",
+    "category": "Frontend",
+    "proficiency_level": "Advanced",
+    "display_order": 3
+  },
+  {
+    "id": 9,
+    "name": "Redux / Context API",
+    "category": "Frontend",
+    "proficiency_level": "Advanced",
+    "display_order": 4
+  },
+  {
+    "id": 10,
+    "name": ".NET Core / ASP.NET",
+    "category": "Backend",
+    "proficiency_level": "Advanced",
+    "display_order": 1
+  },
+  {
+    "id": 11,
+    "name": "FastAPI",
+    "category": "Backend",
+    "proficiency_level": "Advanced",
+    "display_order": 2
+  },
+  {
+    "id": 12,
+    "name": "Node.js",
+    "category": "Backend",
+    "proficiency_level": "Intermediate",
+    "display_order": 3
+  },
+  {
+    "id": 13,
+    "name": "RESTful APIs",
+    "category": "Backend",
+    "proficiency_level": "Advanced",
+    "display_order": 4
+  },
+  {
+    "id": 14,
+    "name": "Azure (Functions, Databricks, OpenAI)",
+    "category": "Cloud & DevOps",
+    "proficiency_level": "Advanced",
+    "display_order": 1
+  },
+  {
+    "id": 15,
+    "name": "Docker",
+    "category": "Cloud & DevOps",
+    "proficiency_level": "Intermediate",
+    "display_order": 2
+  },
+  {
+    "id": 16,
+    "name": "CI/CD (GitHub Actions)",
+    "category": "Cloud & DevOps",
+    "proficiency_level": "Intermediate",
+    "display_order": 3
+  },
+  {
+    "id": 17,
+    "name": "Linux Administration",
+    "category": "Cloud & DevOps",
+    "proficiency_level": "Intermediate",
+    "display_order": 4
+  },
+  {
+    "id": 18,
+    "name": "PySpark / Databricks",
+    "category": "Data Engineering",
+    "proficiency_level": "Advanced",
+    "display_order": 1
+  },
+  {
+    "id": 19,
+    "name": "ETL Pipelines",
+    "category": "Data Engineering",
+    "proficiency_level": "Advanced",
+    "display_order": 2
+  },
+  {
+    "id": 20,
+    "name": "Data Processing at Scale",
+    "category": "Data Engineering",
+    "proficiency_level": "Advanced",
+    "display_order": 3
+  },
+  {
+    "id": 21,
+    "name": "Azure OpenAI",
+    "category": "AI / ML",
+    "proficiency_level": "Advanced",
+    "display_order": 1
+  },
+  {
+    "id": 22,
+    "name": "RAG Systems",
+    "category": "AI / ML",
+    "proficiency_level": "Advanced",
+    "display_order": 2
+  },
+  {
+    "id": 23,
+    "name": "Vector Embeddings",
+    "category": "AI / ML",
+    "proficiency_level": "Advanced",
+    "display_order": 3
+  },
+  {
+    "id": 24,
+    "name": "LLM Fine-tuning",
+    "category": "AI / ML",
+    "proficiency_level": "Intermediate",
+    "display_order": 4
+  },
+  {
+    "id": 25,
+    "name": "CNN (Computer Vision)",
+    "category": "AI / ML",
+    "proficiency_level": "Intermediate",
+    "display_order": 5
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Enterprise Tax Management System",
+    "subtitle": "EY GDS • Full-Stack",
+    "description": "3rd largest project in EY GDS Tax portfolio. Full-stack .NET + React solution with multi-stage approval workflows, role-based access, and SharePoint integration.",
+    "tech_stack": [".NET Core", "React", "TypeScript", "SharePoint"],
+    "icon": "{}",
+    "is_featured": true,
+    "display_order": 1
+  },
+  {
+    "id": 2,
+    "title": "AI Knowledge Discovery Platform",
+    "subtitle": "EY GDS • Data + AI",
+    "description": "ETL pipeline processing 300K+ documents with fine-tuned LLM for knowledge extraction. Vector search with <0.001s latency. Powers AI agents with verified data.",
+    "tech_stack": ["Databricks", "PySpark", "Azure OpenAI", "Python"],
+    "icon": "AI",
+    "is_featured": true,
+    "display_order": 2
+  },
+  {
+    "id": 3,
+    "title": "StethoConnect",
+    "subtitle": "Personal • Healthcare IoT",
+    "description": "Digital stethoscope prototype with CNN-based heart/lung sound analysis. Making diagnostic tools accessible through hardware + software integration.",
+    "tech_stack": ["React", "FastAPI", "Firebase", "CNN"],
+    "icon": "❤️",
+    "is_featured": true,
+    "display_order": 3
+  },
+  {
+    "id": 4,
+    "title": "This Portfolio Website",
+    "subtitle": "Personal • Full-Stack",
+    "description": "Production-ready portfolio with React frontend, FastAPI backend, admin panel, analytics tracking, and CI/CD pipeline. Deployed on Azure infrastructure.",
+    "tech_stack": ["React", "FastAPI", "PostgreSQL", "Azure"],
+    "icon": "🚀",
+    "is_featured": true,
+    "display_order": 4
+  }
+]

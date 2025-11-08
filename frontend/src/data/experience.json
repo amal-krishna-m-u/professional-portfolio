@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "company": "EY GDS",
+    "position": "Associate 2 (Product Engineer)",
+    "location": "Kochi, Kerala",
+    "start_date": "2024-10-01",
+    "end_date": null,
+    "is_current": true,
+    "description": "Promoted to Associate 2. Leading full-stack development and data engineering initiatives. Built AI-powered knowledge platform processing 300K+ documents.",
+    "display_order": 1
+  },
+  {
+    "id": 2,
+    "company": "EY GDS",
+    "position": "Associate 1 (Software Developer)",
+    "location": "Kochi, Kerala",
+    "start_date": "2023-06-01",
+    "end_date": "2024-09-30",
+    "is_current": false,
+    "description": "Full-stack development on 3rd largest tax project. Built .NET + React enterprise solutions with SharePoint integration. Developed ETL pipelines with Databricks.",
+    "display_order": 2
+  },
+  {
+    "id": 3,
+    "company": "TechGenStia",
+    "position": "Flutter Developer Intern",
+    "location": "Remote",
+    "start_date": "2022-06-01",
+    "end_date": "2022-08-31",
+    "is_current": false,
+    "description": "Mobile application development using Flutter framework.",
+    "display_order": 3
+  },
+  {
+    "id": 4,
+    "company": "XMigrate",
+    "position": "Golang Developer Intern",
+    "location": "Remote",
+    "start_date": "2022-01-01",
+    "end_date": "2022-03-31",
+    "is_current": false,
+    "description": "Backend development with Golang, worked on eBPF (Extended Berkeley Packet Filter) projects.",
+    "display_order": 4
+  }
+]
